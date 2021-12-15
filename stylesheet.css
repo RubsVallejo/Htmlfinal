@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Monsterrat:ital,wght@0,300;1,300;1,600&display=swap");
+
+body {
+  background-color: lightskyblue;
+  font-family: "Montserrat", sans-serif;
+}
+
+#textbox {
+  background-color: lightgray;
+  text-size-adjust: auto;
+}
+
+main{padding-top: 100px;}
+
+#wrapper{width: 100%;
+text-align: center;}
+
+.gallery .preview{
+  width:100%;
+  height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+  width:100px;
+  height:75px;
+  margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+
+.gallery .preview img#preview {
+  padding: 1px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto !important;
+  display: block !important;
+}
+
+blockquote{text-size-adjust: 200px;}
+
+footer {
+  background-color: forestgreen;
+  padding: 80px;
+  text-align: center;
+  color: lavender;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+  height: 450px;
+}
+
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+nav a {
+  padding-right: 10px;
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+nav a:link {
+  color: purple;
+}
+
+nav a:visited {
+  color: pink;
+}
+
+nav a:hover {
+  color: gray;
+}
+
+nav a:active {
+  color: black;
+}
+
+.soundcloud-player {
+  border-top: darkgreen;
+}
+
+.youtube-video {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+  nav {
+    float: left;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+  nav a:link {
+    color: purple;
+  }
+
+  nav a:visited {
+    color: pink;
+  }
+
+  nav a:hover {
+    color: gray;
+  }
+
+  nav a:active {
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  nav a:link {
+    color: purple;
+  }
+
+  nav a:visited {
+    color: pink;
+  }
+
+  nav a:hover {
+    color: gray;
+  }
+
+  nav a:active {
+    color: black;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+}

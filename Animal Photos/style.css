@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap");
+
+body {
+  font-family: "Yuji Syuku", serif;
+  background-color: rgb(187, 171, 23);
+  line-height: 2em;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Yuji Mai";
+  font-size: 65px;
+  text-align: center;
+  padding: 15px;
+}
+h2 {
+  font-family: "Yuji Mai";
+  font-size: 80px;
+}
+
+p {
+  font-size: 20px;
+}
+
+h3 {
+  font-family: "Yuji Syuku";
+  color: rgb(137, 31, 141);
+  font: size 70px;
+  font-weight: bold;
+}
+
+.img-fluid {
+  max-width: 100%;
+}
+
+nav {
+  width: 100%;
+  font-size: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  background-color: rgb(61, 15, 15);
+  padding: 35px;
+  border: rgb(243, 97, 0) 10px groove;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+nav a:link {
+  color: rgb(245, 245, 245);
+}
+
+nav a:visited {
+  color: rgb(2, 154, 255);
+}
+
+nav a:hover {
+  color: rgb(169, 16, 207);
+}
+
+nav a:active {
+  color: black;
+}
+
+header {
+  width: 100%;
+}
+
+footer {
+  color: black;
+  background-color: rgb(173, 123, 14);
+  text-align: center;
+  padding: 20px;
+  display: block;
+  margin: 0;
+  font-size: 18px;
+  width: 100%;
+}
+
+.footer-2 {
+  font-size: 30px;
+  padding: 5px;
+  color: yellowgreen;
+  width: 100%;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.icons {
+  text-align: center;
+  padding: 40px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.fa-camera-retro {
+  box-sizing: border-box;
+  font-size: 120px;
+}
+
+.fa-envelope {
+  box-sizing: border-box;
+  font-size: 50px;
+}
+
+.fa-instagram {
+  box-sizing: border-box;
+  font-size: 50px;
+}
+
+.fa-facebook-square {
+  box-sizing: border-box;
+  font-size: 50px;
+}
+
+.fa fa-fa .gallery .preview {
+  width: 100%;
+  height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+  width: 100px;
+  height: 75px;
+  margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.gallery .preview img#preview {
+  padding: 1px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto !important;
+  display: block !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.5em;
+  }
+}
